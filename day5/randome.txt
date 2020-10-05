@@ -1,0 +1,7 @@
+echo $((RANDOM % 100))
+
+RANDOM==$$
+for i in `seq 6`
+do
+	echo $RANDOM
+done
